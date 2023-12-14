@@ -162,6 +162,8 @@ textarea {
 
 .demo-gif {
   max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .inner {
@@ -2963,6 +2965,11 @@ button:disabled,
 
 .main {
   padding: 6em 0 4em 0;
+}
+
+#smoothsail-full-logo {
+  width: 250px;
+  border-radius: 10px;
 }
 
 .main.style1 {
