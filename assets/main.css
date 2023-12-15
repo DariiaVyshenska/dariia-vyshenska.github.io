@@ -3079,7 +3079,9 @@ button:disabled,
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed, fixed, fixed;
   background-image: url("https://live.staticflickr.com/65535/53396504764_152c38575d_h.jpg");
+  /* background-image: url("./bg4.jpg"); */
   background-position: top left, center center, center center;
+  background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -3282,8 +3284,10 @@ body.is-preload #header:after {
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed, fixed, fixed;
   background-image: url("https://live.staticflickr.com/65535/53396504764_152c38575d_h.jpg");
+  background-repeat: no-repeat;
   background-position: top left, center center, center center;
-  background-size: auto, cover, cover;
+  /* background-size: auto, cover, cover; */
+  background-size: cover;
   text-align: center;
 }
 
